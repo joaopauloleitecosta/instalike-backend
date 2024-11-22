@@ -7,3 +7,7 @@ export async function getTodosPosts(){
     const colecao = db.collection("posts");
     return colecao.find().toArray();
 }
+
+export async function criarPost(novoPost) {
+
+}
